@@ -36,7 +36,8 @@ print(filtered_prices)
 # Iterator comprehension - same result as map function
 prices2 = [item[1] for item in items]
 print(prices2)
-xxx
+print(prices2)
+
 prices3 = [item for item in items if item[1] >= 3]
 print(prices3)
 
