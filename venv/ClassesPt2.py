@@ -18,7 +18,6 @@ class TagCloud:
         return iter(self.__tags)
 
 
-
 cloud = TagCloud()
 
 cloud.add("Python")
